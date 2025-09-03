@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY QUALIFICATION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+	padding: 0;
+	background-color:#D4AF37;
+}
+
+.header-bar {
+   font-family:cursive;
+   text-align:center;
+   margin: 0;
+   color:#D4AF37;
+   background-color: white;
+   width: 100%;
+   padding: 0px 0;
+}
+
+p {
+ font-size: 150%;
+ padding-bottom: 50px;
+ font-family:cursive;
+}
+
+.nav-bar {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#D4AF37;
+}
+
+li {
+ float: right;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color:black;
+}
+
+li a:hover {
+  background-color:cyan;
+  color: white;
+}
+}
+
+.qualifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.qualification-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: cursive;
+}
+
+</style>
+</head>
+<body>
+<div class="header-bar">
+   <h1>MY EDUCATION</h1>
+    <div class="nav-bar">
+     <ul>
+      <li><a href="MY INTEREST PAGE.html">MY INTEREST</a></li>
+	    <li><a href="MY EDUCATION PAGE.html">MY EDUCATION</a></li>
+	    <li><a href="MY ACTIVITIES PAGE.html">MY ACTIVITIES</a></li>
+	    <li><a href="Index.html">HOME/ABOUT ME</a></li>
+    </div>
+</div>
+  <p>Here are the qualifications and skills I have gained over the years:</p>
+
+<div class="qualifications-grid">
+  <div class="qualification-card">
+    <img src="Images/books.png" alt="Books" style="width:50px; height:40px">
+   <h3>UPSR</h3> 
+    <p>Completed in 2018 at SK TTDI Jaya</p>
+  </div>
+  <div class="qualification-card">
+     <img src="Images/100.png" alt="Percent" style="width:50px; height:40px">
+    <h3>SPM</h3>
+    <p>Completed in 2023 at SMK USJ 13</p>
+  </div>
+  <div class="qualification-card">
+    <img src="Images/graduation.png" alt="Percent" style="width:50px; height:40px">
+    <h3>Diploma in Computer Science</h3>
+    <p>Currently studying at UPSI (2024 - Present)</p>
+  </div>
+  <div class="qualification-card">
+    <img src="Images/arm.png" alt="Percent" style="width:50px; height:40px">
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>Microsoft Office</li>
+      <li>Teamwork & Communication</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
